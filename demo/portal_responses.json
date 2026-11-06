@@ -1,0 +1,40 @@
+{
+  "_comment": "Fictional data for the offline demo. Case numbers, courts and actions are invented.",
+  "cases": {
+    "00000000000000000000001": {
+      "records": [
+        {
+          "idProceso": 1001,
+          "despacho": "Demo Civil Court 1",
+          "fechaUltimaActuacion": "2021-02-15T00:00:00",
+          "actuaciones": [
+            {"fechaActuacion": "2026-03-10T00:00:00", "actuacion": "Order admitting the claim", "anotacion": "Stale summary date, real recent action"},
+            {"fechaActuacion": "2021-02-15T00:00:00", "actuacion": "Claim filed", "anotacion": ""}
+          ]
+        }
+      ]
+    },
+    "00000000000000000000002": {
+      "records": [
+        {
+          "idProceso": 2001,
+          "despacho": "Demo Civil Court 2",
+          "fechaUltimaActuacion": "2026-01-20T00:00:00",
+          "actuaciones": [
+            {"fechaActuacion": "2026-01-20T00:00:00", "actuacion": "Hearing scheduled", "anotacion": ""}
+          ]
+        }
+      ]
+    },
+    "00000000000000000000003": {
+      "records": [
+        {"idProceso": 3001, "despacho": "Demo Family Court", "failure": "private"}
+      ]
+    },
+    "00000000000000000000004": {
+      "records": [
+        {"idProceso": 4001, "despacho": "Demo Civil Court 4", "failure": "outage"}
+      ]
+    }
+  }
+}
